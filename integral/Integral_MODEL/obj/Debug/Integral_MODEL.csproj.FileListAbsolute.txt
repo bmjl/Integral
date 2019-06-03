@@ -1,0 +1,11 @@
+E:\integral\integral\Integral_MODEL\obj\Debug\Integral_MODEL.csproj.CoreCompileInputs.cache
+E:\integral\integral\Integral_MODEL\bin\Debug\Integral_MODEL.dll.config
+E:\integral\integral\Integral_MODEL\bin\Debug\Integral_MODEL.dll
+E:\integral\integral\Integral_MODEL\bin\Debug\Integral_MODEL.pdb
+E:\integral\integral\Integral_MODEL\bin\Debug\EntityFramework.dll
+E:\integral\integral\Integral_MODEL\bin\Debug\EntityFramework.SqlServer.dll
+E:\integral\integral\Integral_MODEL\bin\Debug\EntityFramework.xml
+E:\integral\integral\Integral_MODEL\bin\Debug\EntityFramework.SqlServer.xml
+E:\integral\integral\Integral_MODEL\obj\Debug\Integral_MODEL.csproj.CopyComplete
+E:\integral\integral\Integral_MODEL\obj\Debug\Integral_MODEL.dll
+E:\integral\integral\Integral_MODEL\obj\Debug\Integral_MODEL.pdb

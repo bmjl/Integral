@@ -1,0 +1,15 @@
+E:\integral\integral\Integral_DAL\bin\Debug\Integral_DAL.dll.config
+E:\integral\integral\Integral_DAL\bin\Debug\Integral_DAL.dll
+E:\integral\integral\Integral_DAL\bin\Debug\Integral_DAL.pdb
+E:\integral\integral\Integral_DAL\bin\Debug\EntityFramework.dll
+E:\integral\integral\Integral_DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\integral\integral\Integral_DAL\bin\Debug\Integral_MODEL.dll
+E:\integral\integral\Integral_DAL\bin\Debug\Integral_MODEL.pdb
+E:\integral\integral\Integral_DAL\bin\Debug\Integral_MODEL.dll.config
+E:\integral\integral\Integral_DAL\bin\Debug\EntityFramework.xml
+E:\integral\integral\Integral_DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\integral\integral\Integral_DAL\obj\Debug\Integral_DAL.csprojResolveAssemblyReference.cache
+E:\integral\integral\Integral_DAL\obj\Debug\Integral_DAL.csproj.CoreCompileInputs.cache
+E:\integral\integral\Integral_DAL\obj\Debug\Integral_DAL.csproj.CopyComplete
+E:\integral\integral\Integral_DAL\obj\Debug\Integral_DAL.dll
+E:\integral\integral\Integral_DAL\obj\Debug\Integral_DAL.pdb

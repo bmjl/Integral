@@ -1,0 +1,52 @@
+﻿@model IEnumerable<integral.Models.Integral_Main>
+
+@{
+    ViewBag.Title = "积分列表";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<h2>积分列表</h2>*@
+
+
+<table class="table  table-striped">
+    <tr>
+        @*<th>序号</th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.Num)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Integral)
+        </th>
+        <th>@Html.ActionLink("新增", "Create")</th>
+    </tr>
+   @*@{ 
+       var i = 0;
+   }*@
+    @foreach (var item in Model)
+    {
+        //i++;
+        <tr>
+            @*<td>
+             @i
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.Num)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Integral)
+        </td>
+        <td>
+            @Html.ActionLink("增加积分", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("详情列表", "Index/" + item.Id, "Integral_History") |
+            @*@Html.ActionLink("删除", "Delete", new { id = item.Id })*@
+        </td>
+    </tr>
+}
+
+</table>

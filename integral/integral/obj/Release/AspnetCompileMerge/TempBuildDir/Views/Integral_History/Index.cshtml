@@ -1,0 +1,42 @@
+﻿@model IEnumerable<integral.Models.Integral_History>
+
+@{
+    ViewBag.Title = "积分详情";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<table class="table  table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Main_Num)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Integral)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Time)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Main_Num)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Integral)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Time)
+            </td>
+            <td></td>
+        </tr>
+    }
+
+</table>
+<div>
+    @Html.ActionLink("返回列表", "Index", "Integral_Main")
+</div>
